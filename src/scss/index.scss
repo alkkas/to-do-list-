@@ -1,1 +1,36 @@
 @use "reset";
+
+//colors
+$orange: #eca400;
+$slime: #eaf8bf;
+$blue: #006992;
+$indigo: #27476e;
+$Oblue: #001d4a;
+.wrapper {
+  background: $slime;
+  min-height: 100vh;
+  color: $Oblue;
+}
+.content-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+//header
+//main
+.task {
+  &-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    background: $blue;
+    color: $slime;
+  }
+  &-remove-btn {
+    margin-right: 5px;
+    padding: 3px;
+    background: $Oblue;
+    color: $orange;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}
