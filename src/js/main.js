@@ -1,7 +1,4 @@
 
-
-
-
 window.addEventListener("load", () => {
     //SET CURRENT DATE
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -38,7 +35,6 @@ function addTask() {
 contentField.addEventListener("click", function() {
     contentField.style.height = 80 +"px";
     document.querySelector(".task-btns").classList.add("active");
-
 })
 
 
